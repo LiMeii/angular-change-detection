@@ -1,0 +1,9 @@
+<h3 style="color: black">this is child A page</h3>
+
+<h4 style="color: black">message from grand child: {{msgFromGrandChild}}</h4>
+
+<app-grand-child (sendMsgToParent)="getMsgFromGrandChild($event)">
+
+    <span style="color: coral">here is the content projection</span>
+    
+</app-grand-child>
