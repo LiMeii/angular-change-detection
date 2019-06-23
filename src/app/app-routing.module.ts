@@ -5,12 +5,16 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: 'changeDetection'
+    redirectTo: 'unidirectionalDataFlow'
   },
   {
-    path: 'changeDetection',
-    loadChildren: './modules/change-detection.module#ChangeDetectionModule',
+    path: 'unidirectionalDataFlow',
+    loadChildren: './modules/unidirectional-data-flow/unidirectional-data-flow.module#UnidirectionalDataFlowModule',
     data: { preload: true }
+  },
+  {
+    path: 'changedetection',
+    loadChildren: './modules/change-detection/change-detection.module#ChangeDetectionModule'
   },
 ];
 

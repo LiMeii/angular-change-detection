@@ -4,18 +4,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChildAComponent } from "./child-a/child-a.component";
 import { GrandChildComponent } from "./grand-child/grand-child.component";
 
-const ChangeDetectionRoutes: Routes = [
+const unidirectionalRoutes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: 'childa' },
     { path: 'childa', component: ChildAComponent }
 ];
 
 @NgModule({
-    imports: [RouterModule.forChild(ChangeDetectionRoutes)],
+    imports: [RouterModule.forChild(unidirectionalRoutes)],
     declarations: [ChildAComponent, GrandChildComponent],
     exports: [RouterModule]
 })
 
 
-export class ChangeDetectionRoutingModule {
+export class UnidirectionalDataFlowRoutingModule {
 
 }
