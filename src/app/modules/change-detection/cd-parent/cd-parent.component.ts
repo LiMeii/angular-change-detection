@@ -2,15 +2,15 @@ import { Component } from "@angular/core";
 
 
 @Component({
-    templateUrl: './cd-parent.component.html'
-
+    template: `<h1>I am <span [textContent]="data.name"></span> </h1>
+               <button (click)="changeName()">Change name</button> `
 })
-
 export class cdParentComponent {
 
     data: any = { name: 'meii', address: 'ShangHai' };
 
-    onClick() {
-        this.data.address = 'China'
+    changeName() {
+        this.data.name = 'limeii';
     }
+
 }
