@@ -1,1 +1,5 @@
 <h1>I am {{data.name}} and I live in {{data.address}}</h1>
+
+<cd-child [data]="data"></cd-child>
+
+<button (click)="changeName()">Change name</button>

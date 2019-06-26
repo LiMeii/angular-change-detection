@@ -2,14 +2,22 @@ import { Component } from "@angular/core";
 
 
 @Component({
-    template: `<h1>I am <span [textContent]="data.name"></span> </h1>
-               <button (click)="changeName()">Change name</button> `
+    templateUrl: './cd-parent.component.html'
 })
 export class cdParentComponent {
 
-    data: any = { name: 'meii', address: 'ShangHai' };
+    data: any = {
+        name: 'meii', address: 'ShangHai'
+        ,
+        contact: {
+            email: 'XXX@gmail.com',
+            phone: '1234567890'
+        }
+    };
 
     changeName() {
+        this.data.contact.email = 'update@gmail.com';
+        this.data.contact.phone = '00000000';
         this.data.name = 'limeii';
     }
 
