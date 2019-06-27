@@ -1,4 +1,29 @@
 
 # angular-change-detection
-demo code for understanding angular change detection / unidirectional data flow / dirty checking / binding / DOM update in deep.
+This project was generated with Angular CLI version 8.0.0.
+
+demo code for understanding the following angular core concept:
+- angular change detection 
+- unidirectional data flow 
+- dirty checking 
+- binding
+- DOM update in deep
+- OnPush strategy
+
+Here is the series of change detection tutorial:
+
+- [Angular：单向数据流](https://limeii.github.io/2019/06/angular-unidirectional-data-flow/)
+
+- [Angular Change Detection:变化检测机制](https://limeii.github.io/2019/06/angular-changedetection/)
+
+- [Angular Change Detection:变化检测策略](https://limeii.github.io/2019/06/angular-changeDetectionStrategy-OnPush/)
+
+# usage
+
+Download to your local
+
+Run 'npm install'
+
+Run 'ng serve'
+
 
