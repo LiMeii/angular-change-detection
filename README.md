@@ -9,6 +9,7 @@ demo code for deep understanding the following angular core concept:
 - binding
 - DOM update in deep
 - OnPush strategy
+- 
 
 Here is the series of change detection tutorial:
 
