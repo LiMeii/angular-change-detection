@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'changedetection',
     loadChildren: './modules/change-detection/change-detection.module#ChangeDetectionModule'
   },
+  {
+    path: 'onpushngdocheck',
+    loadChildren: './modules/onpush-ngdocheck/onpush-ngdocheck,module#OnpushNgdocheckModule'
+  }
 ];
 
 @NgModule({
