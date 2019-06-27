@@ -18,6 +18,8 @@ Here is the series of change detection tutorial:
 
 - [Angular Change Detection:变化检测策略](https://limeii.github.io/2019/06/angular-changeDetectionStrategy-OnPush/)
 
+- [Angular：ngDoCheck执行时机](https://limeii.github.io/2019/06/angular-ngdocheck-onpush-strategy/)
+
 # usage
 
 Download to your local
