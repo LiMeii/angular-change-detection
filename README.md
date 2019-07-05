@@ -3,6 +3,7 @@
 This project was generated with Angular CLI version 8.0.0.
 
 demo code for deep understanding the following angular core concept:
+
 - angular change detection 
 - unidirectional data flow 
 - dirty checking 
